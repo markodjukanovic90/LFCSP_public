@@ -636,10 +636,9 @@ int main(int argc, char **argv)
          if(algorithm==0) // uniform sampling
          {
              cout << "=====================  uniform sampling ==================================" << endl;
-
              UniformSampling* us = new UniformSampling(instance);
-             us->run(num_solutions, File_Name_Out, set<int>(); 
-             us->print();
+             us->run(num_solutions, File_Name_Out, set<int>()); 
+             //us->print();
              
          }else
          if(algorithm==1){
