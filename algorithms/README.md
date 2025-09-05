@@ -30,7 +30,7 @@ After these steps, you should have the following binaries:
 The `Heuristics` executable supports **RandomSample**, **Approx**, and **LS** approaches.
 
 - **RandomSample**  
-```bash
+
 ./Heuristics -a 0 -o out.out -i ../instances_and_generators/RANDOM/64_16_23.txt
 
 -i: path to the instance file
